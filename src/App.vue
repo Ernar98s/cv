@@ -23,7 +23,7 @@ const goPrevPage = () => {
 
 onMounted(() => {
   const vid = document.getElementById('myAudio')
-  vid.volume = 0.01
+  vid.volume = 0.06
 })
 
 console.log('smth')
@@ -37,7 +37,7 @@ console.log('smth')
   <BackgroundLayout />
   <div class="container items-center align-middle p-4">
     <VsCodeCard class="hidden" :key="currPage" :step-text="currentPageText" />
-    <div class="w-full flex justify-between">
+    <div>
       <button
         @click="goPrevPage"
         type="button"

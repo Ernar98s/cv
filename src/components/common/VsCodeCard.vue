@@ -1,6 +1,7 @@
 <template>
   <VCodeBlock
     class="h-full"
+    :browser-window="true"
     :code="subtxt"
     highlightjs
     :height="600"
